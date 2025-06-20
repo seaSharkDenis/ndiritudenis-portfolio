@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Denis Ndiritu"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Denis Ndiritu"
     <title>Denis Macharia</title>
-  </head>
-  <body>
-    <header>
+</head>
+
+<body>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <header>
+    <div class="header-content">
       <h1>Denis Macharia</h1>
       <p>QA Engineer | Customer Support Specialist | IT Support Specialist</p>
       <nav>
@@ -20,96 +28,130 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
-
+    </div>
+  </header>
+  <main>
     <section id="about">
-      <h2>About Me</h2>
-      <img src="images/Ndiritu_Image.jpg" alt="Denis Ndiritu"/>
-      <p>
-        I’m an IT professional With over a year of experience in quality
-        assurance and software development, I've developed comprehensive test
-        plans and automated scripts using Selenium and XUnit. My work has also
-        focused on delivering high-quality solutions through technical expertise
-        and client-centric support.
-      </p>
+      <img src="images/Ndiritu_Image.jpg" alt="Denis Macharia"
+        onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjdGQUZDIi8+CjxjaXJjbGUgY3g9IjE1MCIgY3k9IjEyMCIgcj0iNDAiIGZpbGw9IiM2NjdFRUEiLz4KPHBhdGggZD0iTTEwMCAyMDBDMTAwIDE3Mi4zODYgMTIyLjM4NiAxNTAgMTUwIDE1MFMyMDAgMTcyLjM4NiAyMDAgMjAwVjI1MEgxMDBWMjAwWiIgZmlsbD0iIzY2N0VFQSIvPgo8L3N2Zz4K'" />
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+          I’m an IT professional With over a year of experience in quality
+          assurance and software development, I've developed comprehensive test
+          plans and automated scripts using Selenium and XUnit. My work has also
+          focused on delivering high-quality solutions through technical expertise
+          and client-centric support.
+        </p>
+      </div>
     </section>
 
     <section id="experience">
       <h2>Work Experience</h2>
-      <div>
-        <h3>Quality Assurance - Hanmak Technologies</h3>
+      <div class="experience-item">
+        <h3>Quality Assurance Engineer - Hanmak Technologies</h3>
         <p>
-          Developed test plans, automated tests with Selenium and XUnit,
-          identified bugs, and collaborated with dev teams.
+          Developed comprehensive test plans and automated testing frameworks using Selenium and XUnit.
+          Identified critical bugs and collaborated closely with development teams to ensure
+          high-quality software delivery. Implemented testing best practices and maintained
+          test documentation for improved efficiency and reliability.
         </p>
       </div>
-      <div>
+      <div class="experience-item">
         <h3>Customer Success Specialist - Hanmak Technologies</h3>
         <p>
-          Implemented company solutions to over 20 facilities, provided
-          technical support, and trained clients.
+          Successfully implemented company solutions across over 20 healthcare facilities,
+          providing technical support and comprehensive client training. Managed client
+          relationships and ensured smooth onboarding processes, resulting in improved
+          customer satisfaction and retention rates.
         </p>
       </div>
-      <div>
-        <h2>Download CV</h2>
-        <a id="download-cv" href="linktocv">Download CV</a>
+      <div class="cv-download">
+        <h3>Download My CV</h3>
+        <a href="assets/ndiritudenis_resume.pdf" download="DenisMacharia_CV.pdf">
+          Download CV
+        </a>
       </div>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <div>
-            <h3>Customer Support</h3>
-            <p>Expert in diagnosing and troubleshooting software issues, assisting users, and providing client support.</p>
-            <p>Expert</p>
+      <h2>Skills & Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Customer Support</h3>
+          <p>Expert in diagnosing and troubleshooting software issues, providing exceptional user assistance, and
+            delivering comprehensive client support solutions.</p>
+          <span class="skill-level">Expert</span>
         </div>
-        <div>
-            <h3>HTML</h3>
-            <p>Experienced in creating structured and semantic HTML for web applications.</p>
-            <p>Intermediate</p>
+        <div class="skill-card">
+          <h3>HTML & Web Development</h3>
+          <p>Experienced in creating structured, semantic HTML for modern web applications with focus on accessibility
+            and performance.</p>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div>
-            <h3>CSS</h3>
-            <p>Skilled in styling and designing responsive web pages.</p>
-            <p>Intermediate</p>
+        <div class="skill-card">
+          <h3>CSS & Responsive Design</h3>
+          <p>Skilled in styling and designing responsive, mobile-first web pages with modern CSS techniques and
+            frameworks.</p>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div>
-            <h3>Software Testing</h3>
-            <p>Proficient in manual and automated testing using Selenium and XUnit.</p>
-            <p>Beginner</p>
+        <div class="skill-card">
+          <h3>Software Testing</h3>
+          <p>Proficient in both manual and automated testing methodologies using industry-standard tools like Selenium
+            and XUnit.</p>
+          <span class="skill-level">Intermediate</span>
         </div>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
-      <div>
-        <h3>Synchronization Tool</h3>
-        <p>Created a simple synchronization tool that allows synchronization of local files into a specified Google Drive folder of the user's choice.</p>
-        <a href="https://github.com/seaSharkDenis/SynchronizationTool">Synchronization Tool</a>
-      </div>
-      <div>
-        <h3>Acceptance Tests - MedicentreV3 IHMIS</h3>
-        <p>Was involved in the creation of acceptance tests for <a href="https://medicentrev3.hanmak.co.ke">MedicentreV3 IHMIS</a>.</p>
-        <a href="https://github.com/hanmaktechltd/AcceptanceTests">MedicentreV3 Acceptance Tests</a>
-      </div>
-      <div>
-        <h3>Train Booking Database</h3>
-        <p>Participated in a challenge that required the creation of a train booking database and its relevant tables based on the ERD.</p>
-        <a href="https://github.com/seaSharkDenis/train-booking-db">Train Booking Database</a>
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Synchronization Tool</h3>
+            <p>Created a comprehensive file synchronization tool that enables seamless synchronization of local files to
+              specified Google Drive folders, with user-friendly configuration options.</p>
+            <a href="https://github.com/seaSharkDenis/SynchronizationTool" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-content">
+            <h3>MedicentreV3 IHMIS Acceptance Tests</h3>
+            <p>Led the development of comprehensive acceptance tests for MedicentreV3 IHMIS, ensuring robust healthcare
+              management system functionality and reliability.</p>
+            <a href="https://github.com/hanmaktechltd/AcceptanceTests" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Train Booking Database</h3>
+            <p>Designed and implemented a complete train booking database system with optimized table structures based
+              on Entity Relationship Diagrams for efficient data management.</p>
+            <a href="https://github.com/seaSharkDenis/train-booking-db" class="project-link">View Project</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        Email:
-        <a href="mailto:denisndiritu1@gmail.com">denisndiritu1@gmail.com</a>
-      </p>
-      <p>Phone: <a href="tel:+254769635647">0769635647</a></p>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/denis-ndiritu-15b6a5341/">denisndiritu</a>
-      </p>
+       <h2>Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <a href="mailto:denisndiritu1@gmail.com">denisndiritu1@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <a href="tel:+254769635647">+254 769 635 647</a>
+          </div>
+          <div class="contact-item">
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/denis-ndiritu-15b6a5341/">Connect with me</a>
+          </div>
+        </div>
     </section>
-  </body>
+  </main>
+</body>
+
 </html>
